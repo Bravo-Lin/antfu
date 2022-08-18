@@ -9,6 +9,7 @@ import NProgress from 'nprogress'
 import { ViteSSG } from 'vite-ssg'
 import dayjs from 'dayjs'
 import LocalizedFormat from 'dayjs/plugin/localizedFormat.js'
+import { VividTyping } from 'vivid-typing'
 import App from './App.vue'
 
 const routes = autoRoutes.map((i) => {
@@ -30,9 +31,9 @@ const scrollBehavior = (to: any, from: any, savedPosition: any) => {
 export const createApp = ViteSSG(
   App,
   { routes, scrollBehavior },
-  ({ router, isClient }) => {
+  ({ router, isClient, app }) => {
     dayjs.extend(LocalizedFormat)
-
+    app.component('VividTyping', VividTyping)
     if (isClient) {
       router.beforeEach(() => { NProgress.start() })
       router.afterEach(() => { NProgress.done() })

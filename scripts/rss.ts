@@ -9,7 +9,7 @@ import { slugify } from './slugify'
 
 const DOMAIN = 'https://antfu.me'
 const AUTHOR = {
-  name: 'Anthony Fu',
+  name: 'Bravo Lin',
   email: 'hi@antfu.me',
   link: DOMAIN,
 }
@@ -27,11 +27,11 @@ async function buildBlogRSS() {
   const files = await fg('pages/posts/*.md')
 
   const options = {
-    title: 'Anthony Fu',
-    description: 'Anthony Fu\' Blog',
+    title: 'Bravo Lin',
+    description: 'Bravo Lin\' Blog',
     id: 'https://antfu.me/',
     link: 'https://antfu.me/',
-    copyright: 'CC BY-NC-SA 4.0 2021 © Anthony Fu',
+    copyright: 'CC BY-NC-SA 4.0 2021 © Bravo Lin',
     feedLinks: {
       json: 'https://antfu.me/feed.json',
       atom: 'https://antfu.me/feed.atom',
@@ -41,7 +41,7 @@ async function buildBlogRSS() {
   const posts: any[] = (
     await Promise.all(
       files.filter(i => !i.includes('index'))
-        .map(async(i) => {
+        .map(async (i) => {
           const raw = await fs.readFile(i, 'utf-8')
           const { data, content } = matter(raw)
 

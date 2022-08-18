@@ -1,3 +1,13 @@
+<script setup lang="ts">
+useHead({
+  meta: [
+    { property: 'og:title', content: '2222' },
+    { property: 'og:image', content: 'https://avatars.githubusercontent.com/u/43205138?v=4' },
+    { name: 'description', content: 'Bravo Lin\'s Portfolio' },
+  ],
+})
+</script>
+
 <template>
   <NavBar />
   <main class="px-7 py-10">
@@ -6,14 +16,3 @@
   </main>
 </template>
 
-<script setup lang="ts">
-useHead({
-  meta: [
-    { property: 'og:title', content: 'Anthony Fu' },
-    { property: 'og:image', content: 'https://antfu.me/avatar.png' },
-    { name: 'description', content: 'Anthony Fu\'s Portfolio' },
-    { name: 'twitter:card', content: 'summary' },
-    { name: 'twitter:creator', content: '@antfu7' },
-  ],
-})
-</script>
