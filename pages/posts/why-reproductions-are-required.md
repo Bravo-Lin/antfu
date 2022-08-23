@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Why Reproductions are Required
 date: 2022-05-30T16:00:00Z
 lang: en
@@ -63,4 +63,4 @@ Often, it's not possible to illustrate the problem with a REPL. Here's what you 
 
 As a maintainer, I appreciate all the issues and pull requests opened. And I believe it's true that some of the issues we closed without reproduction might still have real bugs that need to be fixed. But to not be overwhelmed by the notifications, maintainers need to set the priorities for handling the tasks. Keeping the number of issues in a manageable manner is one of the ways to keep the project healthy in the long run.
 
-I believe open source is about building great stuff together, not solely on maintainers' shoulders. Wish we could make a better and healthier community together. Thanks for reading :)
+I believe open source is about building great stuff together, not solely on maintainers' shoulders. Wish we could make a better and healthier community together. Thanks for reading :) -->
