@@ -11,7 +11,7 @@ plum: true
 
 <vivid-typing spilt-tag="span" content="Hi I'm bravo lin, a front-end developer and currently based in <%><span class='i-mi:location'></span></%>Xiamen." />
 
-This is a personal [blog](/posts) for writing some thoughts on life and technology.I also have a [yueque repository](https://www.yuque.com/bravolin) for documenting learning, check it out if you're interested.<span class="i-mi:apple"/>
+This is my personal [blog](/posts) for writing some thoughts on life and technology.I also have a [yueque repository](https://www.yuque.com/bravolin) for documenting learning, check it out if you're interested.<span class="i-mi:apple"/>
 
 Outside of programming I'm also quite interested in music, philosophy and games, but in most of these areas I'm more of an appreciator than a creator, hahaha.
 
