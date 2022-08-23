@@ -3,7 +3,9 @@
 plum: true
 ---
 
-<img src="https://bravolin.me/avatar.png" style="width:10rem;border-radius:10rem"/>
+<figure>
+<img src="/images/avatar.png" style="width:10rem;border-radius:10rem;border:gray 1px solid"/>
+</figure>
 
 <h1>Bravo Lin</h1>
 
