@@ -1,11 +1,19 @@
 ---
-title: Bravo Lin
+# title:  
 plum: true
 ---
 
-Hey, I am Bravo Lin,a general front-end development engineer.
+<img src="https://bravolin.me/avatar.png" style="width:10rem;border-radius:10rem"/>
 
-Outside of programming, I am also a gamer and enjoy jrpg and roglike games, so if you are interested in talking about games,let's talk about that.
+<h1>Bravo Lin</h1>
+
+<vivid-typing spilt-tag="span" content="Hi I'm bravo lin, a front-end developer and currently based in <%><span class='i-mi:location'></span></%>Xiamen." />
+
+This is a personal [blog](/posts) for writing some thoughts on life and technology.I also have a [yueque repository](https://www.yuque.com/bravolin) for documenting learning, check it out if you're interested.<span class="i-mi:apple"/>
+
+Outside of programming I'm also quite interested in music, philosophy and games, but in most of these areas I'm more of an appreciator than a creator, hahaha.
+
+I'm still learning how to be a good creator (in any field) because it's really cool. If you have any interesting ideas let me know, maybe we can try it out.
 
 ***
 

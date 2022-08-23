@@ -59,6 +59,7 @@ import { isDark } from '~/logics'
 
 .nav img {
   margin-bottom: 0;
+  height: 100rem;
 }
 
 .nav a {
