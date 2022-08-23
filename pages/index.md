@@ -10,7 +10,3 @@ Outside of programming, I am also a gamer and enjoy jrpg and roglike games, so i
 ***
 
 Find me on [GitHub](https://github.com/bravo-lin).<br>
-<!-- Mail me at [hi@antfu.me](mailto:hi@antfu.me).<br> -->
-
-<!-- 
-If you like my works, consider sponsoring me on [GitHub Sponsor](https://github.com/sponsors/antfu) to keep them sustainable. -->

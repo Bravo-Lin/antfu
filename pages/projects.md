@@ -21,9 +21,9 @@ projects:
       icon: 'i-simple-icons:react'
 
   Games:
-    # - name: 'Handle 汉兜'
-    #   link: 'https://handle.antfu.me'
-    #   desc: 'A Chinese Hanzi variation of Wordle'
+    # - name: ''
+    #   link: ''
+    #   desc: ''
     #   icon: 'i-carbon-scatter-matrix'
 
   VS Code Extensions:

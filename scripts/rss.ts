@@ -7,10 +7,10 @@ import type { FeedOptions, Item } from 'feed'
 import { Feed } from 'feed'
 import { slugify } from './slugify'
 
-const DOMAIN = 'https://antfu.me'
+const DOMAIN = 'https://www.bravolin.me'
 const AUTHOR = {
   name: 'Bravo Lin',
-  email: 'hi@antfu.me',
+  email: 'bravolin9527@gmail.com',
   link: DOMAIN,
 }
 const markdown = MarkdownIt({
@@ -29,13 +29,13 @@ async function buildBlogRSS() {
   const options = {
     title: 'Bravo Lin',
     description: 'Bravo Lin\' Blog',
-    id: 'https://antfu.me/',
-    link: 'https://antfu.me/',
+    id: 'https://bravolin.me/',
+    link: 'https://bravolin.me/',
     copyright: 'CC BY-NC-SA 4.0 2021 © Bravo Lin',
     feedLinks: {
-      json: 'https://antfu.me/feed.json',
-      atom: 'https://antfu.me/feed.atom',
-      rss: 'https://antfu.me/feed.xml',
+      json: 'https://bravolin.me/feed.json',
+      atom: 'https://bravolin.me/feed.atom',
+      rss: 'https://bravolin.me/feed.xml',
     },
   }
   const posts: any[] = (
@@ -72,8 +72,8 @@ async function buildBlogRSS() {
 
 async function writeFeed(name: string, options: FeedOptions, items: Item[]) {
   options.author = AUTHOR
-  options.image = 'https://antfu.me/avatar.png'
-  options.favicon = 'https://antfu.me/logo.png'
+  options.image = 'https://bravolin.me/avatar.png'
+  options.favicon = 'https://bravolin.me/logo.png'
 
   const feed = new Feed(options)
 
