@@ -15,7 +15,7 @@ This is my personal [blog](/posts) for writing some thoughts on life and technol
 
 Outside of programming I'm also quite interested in music, philosophy and games, but in most of these areas I'm more of an appreciator than a creator, hahaha.
 
-I'm still learning how to be a good creator (in any field) because it's really cool. If you have any interesting ideas let me know, maybe we can try it out.
+I'm still learning how to be a creator (in any field) because it's really cool. If you have any interesting ideas let me know, maybe we can try it out.
 
 ***
 
