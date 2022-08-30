@@ -1,11 +1,10 @@
 ---
-title: 「template」
-date: 2022-06-30T16:00:00Z
-lang: en
-duration: 10min
+title: 「浅谈前端设计模式 」
+date: 2022-04-20T16:00:00Z
+lang: zh
+duration: 15min
 description: bolg template
 hide: true
 ---
 
-react native 排错
 <!-- > [English Version](/posts/why-reproductions-are-required) -->

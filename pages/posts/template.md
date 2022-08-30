@@ -7,5 +7,5 @@ description: bolg template
 hide: true
 ---
 
-react native 排错
+bolg template
 <!-- > [English Version](/posts/why-reproductions-are-required) -->
