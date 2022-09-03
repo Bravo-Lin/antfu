@@ -15,10 +15,10 @@ import { isDark } from '~/logics'
           <span class="lt-md:hidden">Blog</span>
           <div i-ri-article-line md:hidden />
         </router-link>
-        <!-- <router-link to="/projects" title="Projects">
+        <router-link to="/projects" title="Projects">
           <span class="lt-md:hidden">Projects</span>
           <div i-ri-lightbulb-line class="md:hidden" />
-        </router-link> -->
+        </router-link>
         <!-- <router-link to="/podcasts" class="lt-md:hidden" title="Podcasts">
           Podcasts
         </router-link> -->
